@@ -235,8 +235,7 @@ lightweight-explainable-ids/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/lightweight-explainable-ids.git
-cd lightweight-explainable-ids
+git clone https://github.com/OMTembo/lightweight-explainable-IDS.git
 ```
 
 ### Step 2: Create a Virtual Environment
@@ -256,7 +255,7 @@ venv\Scripts\activate
 ### Step 3: Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+python -c "import sklearn, pandas, numpy, lightgbm, scapy, dpkt, yaml, joblib; print('Installation successful!')"
 ```
 
 ### Step 4: Download the Dataset
@@ -434,12 +433,12 @@ python src/explainability/explain.py --input results/predictions.csv --output re
 
 **Linux:**
 ```bash
-python src/gui/ids_gui.py
+python src/gui/main_window.py
 ```
 
 **Windows:**
 ```cmd
-python src\gui\ids_gui.py
+python src\gui\main_window.py
 ```
 
 ---
@@ -532,8 +531,9 @@ If you use this repository in academic work, please cite the associated thesis a
   author  = {Tembo, O'Brien Mwaanza},
   title   = {Design and Evaluation of a Lightweight, Explainable Supervised Machine Learning-Based Intrusion Detection System for Low-Resource Environments},
   school  = {Mulungushi University},
-  address = {Lusaka, Zambia},
+  address = {Kabwe, Zambia},
   year    = {2026}
+}
 }
 
 @inproceedings{Moustafa2015UNSWNB15,
