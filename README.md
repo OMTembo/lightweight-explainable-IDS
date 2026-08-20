@@ -259,6 +259,10 @@ python -c "import sklearn, pandas, numpy, lightgbm, scapy, dpkt, yaml, joblib; p
 ```
 
 ### Step 4: Download the Dataset
+Download the preprocessed dataset directly from Google Drive:
+- [Google Drive Direct Download](https://drive.google.com/file/d/1_ReCWQbZ1zrL0N3fkhb99Qn_gZXTMGs8/view?usp=sharing)
+
+Alternatively, you can obtain the raw files from the official UNSW sources listed in the [Dataset](#dataset) section.
 
 Download the **UNSW-NB15** dataset from one of the official sources below:
 
